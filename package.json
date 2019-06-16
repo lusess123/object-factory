@@ -1,0 +1,25 @@
+{
+  "name": "object-factory",
+  "version": "1.0.1",
+  "description": "一个用于实现插件机制的 抽象工厂",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "rm -rf lib && tsc  ./src/*.ts  -d --allowSyntheticDefaultImports true --lib es6,dom --experimentalDecorators true -t es6 --moduleResolution node --jsx react --outDir lib",
+    "re-watch": "rm -rf node_modules && rm -rf package-lock.json && npm i && npm run watch ",
+    "watch": "webpack-dev-server  --watch-poll --config node_modules/ak-webpack/src/config.js --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lusess123/object-factory.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lusess123/object-factory/issues"
+  },
+  "homepage": "https://github.com/lusess123/object-factory#readme",
+  "devDependencies": {
+    "ak-webpack": "^1.0.1"
+  }
+}
