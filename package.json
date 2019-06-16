@@ -1,10 +1,10 @@
 {
-  "name": "instance-factory",
-  "version": "1.0.1",
+  "name": "o-factory",
+  "version": "2.0.1",
   "description": "一个用于实现插件机制的 抽象工厂",
   "main": "lib/index.js",
   "scripts": {
-    "publish": " npm run tsc && npm publish --registry https://registry.npmjs.org",
+    "publish": " npm publish --registry https://registry.npmjs.org",
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "rm -rf lib && tsc  ./src/*.ts  -d --allowSyntheticDefaultImports true --lib es6,dom --experimentalDecorators true -t es6 --moduleResolution node --jsx react --outDir lib",
     "re-watch": "rm -rf node_modules && rm -rf package-lock.json && npm i && npm run watch ",
