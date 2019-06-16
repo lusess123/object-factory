@@ -1,4 +1,5 @@
 import ObjectFactory from './../src'
+import './async-test'
 const { FactoryContext,PlugIn  } = ObjectFactory
 
 export interface ITest {
